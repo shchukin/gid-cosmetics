@@ -16,71 +16,179 @@
     .page__container {
         width: 57%;
         flex-shrink: 0;
-        display: grid;
-        grid-template-rows: auto 1fr auto;
-        padding: 10rem 2rem 17rem;
     }
-        .page__header {
-
+        .page__inner {
+            height: 100%;
+            max-width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+            display: grid;
+            grid-template-rows: auto 1fr auto;
+            padding: 10rem 2rem 17rem;
         }
-            .page__logo {
-                display: block;
-                width: 28rem;
-                height: 14rem;
+            .page__header {
+
+            }
+                .page__logo {
+                    display: block;
+                    width: 28rem;
+                    height: 14rem;
+                    margin-left: auto;
+                    margin-right: auto;
+                    background-image: url("../images/logo.svg");
+                    background-size: contain;
+                    background-position: center center;
+                    background-repeat: no-repeat;
+                    text-indent: 200%;
+                    white-space: nowrap;
+                    overflow: hidden;
+                }
+
+            .page__slogan {
+                margin-top: 6rem;
+                max-width: 90rem;
                 margin-left: auto;
                 margin-right: auto;
-                background-image: url("../images/logo.svg");
-                background-size: contain;
-                background-position: center center;
-                background-repeat: no-repeat;
-                text-indent: 200%;
-                white-space: nowrap;
-                overflow: hidden;
+                font-size: 3.2rem;
+                line-height: 1.4em;
+                text-align: center;
+                text-wrap: balance;
             }
+                .page__line-break {
 
-        .page__slogan {
-            margin-top: 6rem;
-            font-size: 3.2rem;
-            line-height: 1.4em;
-            text-align: center;
-        }
-            .page__line-break {
-
-            }
-
-        .page__footer {
-            display: flex;
-            align-items: flex-start;
-            justify-content: space-around;
-        }
-            .page__section {
-
-            }
-                .page__sub-heading {
-                    font-size: 3.4rem;
                 }
 
-                .page__contacts {
+            .page__footer {
+                display: flex;
+                align-items: flex-start;
+                justify-content: space-around;
+            }
+                .page__section {
 
                 }
-                    .page__channel {
-                        display: block;
-                        width: fit-content;
-                        font-size: 2.6rem;
+                    .page__sub-heading {
+                        font-size: 3.4rem;
+                    }
+
+                    .page__contacts {
+
+                    }
+                        .page__channel {
+                            display: block;
+                            width: fit-content;
+                            font-size: 2.6rem;
+                            line-height: 1.4em;
+                            color: inherit;
+                            text-decoration-thickness: 0.075em;
+                        }
+
+                        .page__channel--email {
+
+                        }
+
+                        .page__channel--instagram {
+
+                        }
+
+                    .page__requisites {
+                        font-size: 2.3rem;
                         line-height: 1.4em;
-                        color: inherit;
-                        text-decoration-thickness: 0.075em;
                     }
 
-                    .page__channel--email {
 
-                    }
+@media () {
 
-                    .page__channel--instagram {
+    .page {
+        /*height: 100%;*/
+        /*display: flex;*/
+        /*align-items: stretch;*/
+    }
+        .page::before {
+            /*content: "";*/
+            /*width: 43%;*/
+            /*flex-shrink: 0;*/
+            /*background-image: url("../images/illustrations.jpg");*/
+            /*background-size: cover;*/
+            /*background-repeat: no-repeat;*/
+            /*background-position: center center;*/
+        }
 
-                    }
+        .page__container {
+            /*width: 57%;*/
+            /*flex-shrink: 0;*/
+        }
+            .page__inner {
+                /*height: 100%;*/
+                /*max-width: 1000px;*/
+                /*margin-left: auto;*/
+                /*margin-right: auto;*/
+                /*display: grid;*/
+                /*grid-template-rows: auto 1fr auto;*/
+                /*padding: 10rem 2rem 17rem;*/
+            }
+                .page__header {
 
-                .page__requisites {
-                    font-size: 2.3rem;
-                    line-height: 1.4em;
                 }
+                    .page__logo {
+                        /*display: block;*/
+                        /*width: 28rem;*/
+                        /*height: 14rem;*/
+                        /*margin-left: auto;*/
+                        /*margin-right: auto;*/
+                        /*background-image: url("../images/logo.svg");*/
+                        /*background-size: contain;*/
+                        /*background-position: center center;*/
+                        /*background-repeat: no-repeat;*/
+                        /*text-indent: 200%;*/
+                        /*white-space: nowrap;*/
+                        /*overflow: hidden;*/
+                    }
+
+                .page__slogan {
+                    /*margin-top: 6rem;*/
+                    /*font-size: 3.2rem;*/
+                    /*line-height: 1.4em;*/
+                    /*text-align: center;*/
+                    /*text-wrap: balance;*/
+                }
+                    .page__line-break {
+
+                    }
+
+                .page__footer {
+                    /*display: flex;*/
+                    /*align-items: flex-start;*/
+                    /*justify-content: space-around;*/
+                }
+                    .page__section {
+
+                    }
+                        .page__sub-heading {
+                            /*font-size: 3.4rem;*/
+                        }
+
+                        .page__contacts {
+
+                        }
+                            .page__channel {
+                                /*display: block;*/
+                                /*width: fit-content;*/
+                                /*font-size: 2.6rem;*/
+                                /*line-height: 1.4em;*/
+                                /*color: inherit;*/
+                                /*text-decoration-thickness: 0.075em;*/
+                            }
+
+                            .page__channel--email {
+
+                            }
+
+                            .page__channel--instagram {
+
+                            }
+
+                        .page__requisites {
+                            /*font-size: 2.3rem;*/
+                            /*line-height: 1.4em;*/
+                        }
+}
