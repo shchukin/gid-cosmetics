@@ -4,7 +4,7 @@ html {
     scrollbar-gutter: stable; /* Reserve ~15px of empty space under the scrollbar when the modal window is active. */
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    font-family: var(--font);
+    font-family: "Comfortaa", sans-serif;
     font-size: 6px;
     color: #2C2C2C;
 }
