@@ -151,6 +151,16 @@ gulp.task('temp', function () {
 });
 
 
+// Favicon: copy
+
+gulp.task('favicon', function () {
+    return gulp.src('src/favicon/**/*')
+        .pipe(plumber())
+        .pipe(gulp.dest('build/favicon/'))
+        ;
+});
+
+
 // Content: copy
 
 gulp.task('content', function () {
@@ -288,7 +298,7 @@ gulp.task('lint', function () {
 
 
 gulp.task('default', function (fn) {
-    run('clean', 'temp', 'content', 'images', 'fonts', 'markups', 'layouts', 'vendors', 'scripts', 'symbols', 'styles', 'lint', fn);
+    run('clean', 'temp', 'favicon', 'content', 'images', 'fonts', 'markups', 'layouts', 'vendors', 'scripts', 'symbols', 'styles', 'lint', fn);
 });
 
 
