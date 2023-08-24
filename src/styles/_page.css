@@ -10,6 +10,7 @@
         bottom: 0;
         width: 43%;
         flex-shrink: 0;
+        background-color: #C7C6BF;
         background-image: url("../images/illustrations.jpg");
         background-size: cover;
         background-repeat: no-repeat;
