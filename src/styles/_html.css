@@ -1,5 +1,24 @@
 html {
     height: 100%;
+    background-color: #ECE5E4;
     scrollbar-gutter: stable; /* Reserve ~15px of empty space under the scrollbar when the modal window is active. */
-    margin: 0 !important; /* Revoke the space reserved by Magnific Popup or any other library. Native scrollbar-gutter works better since it doesn’t conflict with elements with position: fixed;" */
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-family: var(--font);
+    font-size: 6px;
+    color: #393939;
 }
+
+/*@media (350px <= width < 600px)*/
+
+
+@media (1000px <= width < 1100px) { html { font-size: 6px; } }
+@media (1100px <= width < 1200px) { html { font-size: 6px; } }
+@media (1200px <= width < 1300px) { html { font-size: 6px; } }
+@media (1300px <= width < 1400px) { html { font-size: 6.5px; } }
+@media (1400px <= width < 1500px) { html { font-size: 7px; } }
+@media (1500px <= width < 1600px) { html { font-size: 7.5px; } }
+@media (1600px <= width < 1700px) { html { font-size: 8px; } }
+@media (1700px <= width < 1800px) { html { font-size: 8.5px; } }
+@media (1800px <= width < 1900px) { html { font-size: 9px; } }
+@media (1900px <= width) { html { font-size: 9.5px; } }
