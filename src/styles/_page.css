@@ -11,11 +11,18 @@
         width: 43%;
         flex-shrink: 0;
         background-color: #C7C6BF;
-        background-image: url("../images/illustrations.jpg");
+        background-image: url("../images/illustrations.webp");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
     }
+
+    @media (min-resolution: 2dppx) {
+        .page::before {
+            background-image: url("../images/illustrations@2x.webp");
+        }
+    }
+
 
     .page__container {
         min-height: 100%;
