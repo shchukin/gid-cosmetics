@@ -6,7 +6,7 @@ html {
     -webkit-font-smoothing: antialiased;
     font-family: var(--font);
     font-size: 6px;
-    color: #393939;
+    color: #2C2C2C;
 }
 
 @media (width < 400px) { html { font-size: 4.5px; } }
