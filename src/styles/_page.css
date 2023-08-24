@@ -84,6 +84,8 @@
                         padding-left: 3.8rem;
                         background-repeat: no-repeat;
                         background-position: left center;
+                        font-size: 2.6rem;
+                        line-height: 1.4em;
                         color: inherit;
                         text-decoration: none;
                     }
@@ -101,8 +103,6 @@
                     }
                         .page__label {
                             padding-bottom: 0.4rem;
-                            font-size: 2.6rem;
-                            line-height: 1.4em;
                             border-bottom: 0.075em solid;
                             transition: border-bottom-color 0.2s ease;
                         }
@@ -171,17 +171,25 @@
                     .page__contacts {
 
                     }
-                        .page__channel {
+                        .page__link {
+                            padding-left: 5rem;
                             font-size: 3.5rem;
                         }
 
-                        .page__channel--email {
-
+                        .page__link--email {
+                            background-size: 3.3rem 3.3rem;
+                            /*background-position: 0.1rem center;*/
                         }
 
-                        .page__channel--instagram {
-
+                        .page__link--instagram {
+                            background-size: 3.4rem 3.4rem;
+                            /*background-position: left center;*/
                         }
+                            .page__label {
+                                padding-bottom: 0.4rem;
+                                border-bottom: 0.075em solid;
+                                transition: border-bottom-color 0.2s ease;
+                            }
 
                     .page__requisites {
                         font-size: 3.1rem;
