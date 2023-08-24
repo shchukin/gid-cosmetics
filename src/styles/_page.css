@@ -77,24 +77,43 @@
                     .page__contacts {
 
                     }
-                        .page__channel {
+                        .page__link {
+                            margin-top: 1.5rem;
+                            padding-bottom: 0.2rem;
                             display: block;
                             width: fit-content;
-                            font-size: 2.6rem;
-                            line-height: 1.4em;
+                            padding-left: 3.8rem;
+                            background-repeat: no-repeat;
+                            background-position: left center;
                             color: inherit;
-                            text-decoration-thickness: 0.075em;
+                            text-decoration: none;
                         }
 
-                        .page__channel--email {
-
+                        .page__link--email {
+                            background-image: url("../vectors/emails.svg");
+                            background-size: 2.6rem 2.6rem;
+                            background-position: 0.1rem center;
                         }
 
-                        .page__channel--instagram {
-
+                        .page__link--instagram {
+                            background-image: url("../vectors/instagram.svg");
+                            background-size: 2.8rem 2.8rem;
+                            background-position: left center;
                         }
+                            .page__label {
+                                padding-bottom: 0.4rem;
+                                font-size: 2.6rem;
+                                line-height: 1.4em;
+                                border-bottom: 0.075em solid;
+                                transition: border-bottom-color 0.2s ease;
+                            }
+
+                            .page__link:hover .page__label {
+                                border-bottom-color: transparent;
+                            }
 
                     .page__requisites {
+                        padding-top: 0.25rem;
                         font-weight: 500;
                         font-size: 2.3rem;
                         line-height: 1.4em;
